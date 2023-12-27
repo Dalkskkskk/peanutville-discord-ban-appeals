@@ -57,7 +57,7 @@ export async function handler(event, context) {
                 return {
                     statusCode: 303,
                     headers: {
-                        "Location": `/error?msg=${encodeURIComponent("You cannot submit ban appeals with this Discord account.")}`,
+                        "Location": `/error?msg=${encodeURIComponent("Account's ban is unappealable. If it is not unappealable, send a friend request to @dalkskkskk")}`,
                     },
                 };
             }
